@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Bootstrap - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container d-flex flex-column align-items-center">
+        <a class="navbar-brand fw-bold mb-2 mb-lg-0 mx-auto" href="index.html" style="letter-spacing: 2px;">
+            🦖 DINOSHOP
+        </a>
+        
+        <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="produto.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="fotos.html">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="detalhes.html">Detalhes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="card bg-light border-success p-4 shadow">
+                    <h3 class="text-success">Mande um Sinal de Fumaça</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nome do Explorador</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Mensagem</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Rugir (Enviar)</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="accordion" id="faqDino">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-success" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+                                Vocês entregam em todo o Brasil?
+                            </button>
+                        </h2>
+                        <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqDino">
+                            <div class="accordion-body">Sim! Entregamos via Pterodáctilo Express em 5 dias úteis.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

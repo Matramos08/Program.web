@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DinoShop - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-dino { background-color: #1a3c1a; } /* Verde floresta escuro */
+        .btn-dino { background-color: #8b4513; border: none; color: white; } /* Marrom terra */
+        .btn-dino:hover { background-color: #a0522d; color: white; }
+    </style>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container d-flex flex-column align-items-center">
+        <a class="navbar-brand fw-bold mb-2 mb-lg-0 mx-auto" href="index.html" style="letter-spacing: 2px;">
+            🦖 DINOSHOP
+        </a>
+        
+        <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="produto.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="fotos.html">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="detalhes.html">Detalhes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body>
+    <section class="text-white py-5 shadow-lg" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1517921444004-43609804c86e?q=80&w=2070') center/cover;">
+        <div class="container py-5 text-center">
+            <h1 class="display-3 fw-bold">Domine a Pré-História!</h1>
+            <p class="lead">Os brinquedos de dinossauros mais realistas do mundo direto na sua casa.</p>
+            <a href="produto.html" class="btn btn-dino btn-lg px-5">Explorar Coleção</a>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-5 col-lg-4">
+                <div class="card border-success shadow-lg">
+                    <div class="card-header bg-success text-white py-3">
+                        <h4 class="my-0 fw-normal">Plano Explorer</h4>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$ 49<small class="text-muted fw-light">/mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>1 Mini Dino surpresa por mês</li>
+                            <li>Acesso ao Clube VIP</li>
+                            <li>Descontos em novas coleções</li>
+                            <li>Frete Grátis via Pterodáctilo</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-success">Assinar Agora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
